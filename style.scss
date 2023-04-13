@@ -1,0 +1,31 @@
+.header{
+    background: url("img/slider-bg-1.png.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    li a{
+       color: #fff; 
+       transition: all linear .3s;
+
+       &:hover{
+           color: black;
+       } 
+    }
+}
+.content{
+    .cards{
+        .card{
+            transition: all .3s linear;
+            border: 0;
+            &:hover{
+                box-shadow: rgba(0, 0, 0, 0.11) 0px 14px 38px 0px;
+            }
+
+
+            img{
+                width: 70px;
+                height: 65px;
+            }
+        }
+    }
+}

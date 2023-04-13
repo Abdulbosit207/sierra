@@ -1,0 +1,33 @@
+.header {
+  background: url("img/slider-bg-1.png.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.header li a {
+  color: #fff;
+  -webkit-transition: all linear .3s;
+  transition: all linear .3s;
+}
+
+.header li a:hover {
+  color: black;
+}
+
+.content .cards .card {
+  -webkit-transition: all .3s linear;
+  transition: all .3s linear;
+  border: 0;
+}
+
+.content .cards .card:hover {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.11) 0px 14px 38px 0px;
+          box-shadow: rgba(0, 0, 0, 0.11) 0px 14px 38px 0px;
+}
+
+.content .cards .card img {
+  width: 70px;
+  height: 65px;
+}
+/*# sourceMappingURL=style.css.map */
